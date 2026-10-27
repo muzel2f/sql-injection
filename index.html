@@ -201,7 +201,7 @@ footer { margin-top: 28px; color: var(--muted); font-size: 13px; line-height: 1.
         <h1 id="login-title">Anmelden</h1>
         <form id="form" autocomplete="off" novalidate>
           <label for="user">Benutzername</label>
-          <input id="user" name="user" type="text" placeholder="z. B. lena" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+          <input id="user" name="user" type="text" placeholder="z. B. luna" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
           <label for="pass">Passwort</label>
           <input id="pass" name="pass" type="text" placeholder="Passwort" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
           <p class="fine">Das Passwort ist bewusst nicht verdeckt, damit alle die Eingabe sehen.</p>
@@ -278,9 +278,9 @@ class SqlError extends Error {}
 const COLUMNS = ['id', 'username', 'password', 'role'];
 const SEED = [
   { id: 1, username: 'admin',        password: 'S3cr3t!Adm1n',   role: 'admin' },
-  { id: 2, username: 'lena',         password: 'blume2024',      role: 'schueler' },
-  { id: 3, username: 'max',          password: 'fussball99',     role: 'schueler' },
-  { id: 4, username: 'frau.schmidt', password: 'Lehrerzimmer#7', role: 'lehrer' }
+  { id: 2, username: 'luna',         password: 'Cl13nt!',      role: 'schueler' },
+  { id: 3, username: 'max',          password: 'SuS',     role: 'schueler' },
+  { id: 4, username: 'big.b', password: 'IloveClankers', role: 'lehrer' }
 ];
 const RESERVED = new Set(['SELECT', 'FROM', 'WHERE', 'AND', 'OR', 'NOT', 'LIKE', 'UNION', 'ALL', 'DROP', 'TABLE', 'LIMIT', 'IF', 'EXISTS']);
 
